@@ -8,7 +8,7 @@ public class Homepage {
     
     @GetMapping("/")
     public String home() {
-        return "Welcome to my app";
+        return "Welcome to my javaApp";
     }
 
     @GetMapping("/second-page")
